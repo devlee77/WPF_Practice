@@ -10,8 +10,8 @@
 		<Grid.RowDefinitions>
 			<RowDefinition Height="Auto"/>
 			<RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
 		</Grid.RowDefinitions>
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition Width="Auto"/>
@@ -22,12 +22,12 @@
 		<TextBox x:Name="txt_name" Grid.Row="0" Grid.Column="1" Margin="5" Padding="5"/>
 
 		<TextBlock Grid.Row="1" Grid.Column="0" Margin="10, 5" Text="나이" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-        <TextBox x:Name="txt_age" Grid.Row="1" Grid.Column="1" Margin="5" Padding="5"/>
+		<TextBox x:Name="txt_age" Grid.Row="1" Grid.Column="1" Margin="5" Padding="5"/>
 
-        <Button x:Name="btn_year" Grid.Row="2" Grid.Column="1" Margin="5" Content="출생년도" Click="btn_year_Click"/>
-        <Button x:Name="btn_addage" Grid.Row="3" Grid.Column="1" Margin="5" Content="나이증가시키기" Click="btn_addage_Click"/>
+		<Button x:Name="btn_year" Grid.Row="2" Grid.Column="1" Margin="5" Content="출생년도" Click="btn_year_Click"/>
+		<Button x:Name="btn_addage" Grid.Row="3" Grid.Column="1" Margin="5" Content="나이증가시키기" Click="btn_addage_Click"/>
 
 
-    </Grid>
+		</Grid>
 		
 </Window>

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sungchan Lee\\source\\repos\\WpfApp_pratice\\WpfApp_pratice\\WpfApp_pratice.csproj",
+      "projectUniqueName": "C:\\Users\\sungchan Lee\\Desktop\\WPF_Practice\\WpfApp_pratice\\WpfApp_pratice\\WpfApp_pratice.csproj",
       "projectName": "WpfApp_pratice",
-      "projectPath": "C:\\Users\\sungchan Lee\\source\\repos\\WpfApp_pratice\\WpfApp_pratice\\WpfApp_pratice.csproj",
+      "projectPath": "C:\\Users\\sungchan Lee\\Desktop\\WPF_Practice\\WpfApp_pratice\\WpfApp_pratice\\WpfApp_pratice.csproj",
       "packagesPath": "C:\\Users\\sungchan Lee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sungchan Lee\\source\\repos\\WpfApp_pratice\\WpfApp_pratice\\obj\\",
+      "outputPath": "C:\\Users\\sungchan Lee\\Desktop\\WPF_Practice\\WpfApp_pratice\\WpfApp_pratice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sungchan Lee\\AppData\\Roaming\\NuGet\\NuGet.Config",
