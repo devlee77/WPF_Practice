@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp_practice3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_practice3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="Beige">
+        <!--stretch옵션
+            none - 지정한 사이즈로만 나와라
+            fill - 지정한 크기로 고정
+            uniform - 정비례하게 뽑아라(창에서 짧은 쪽을 기준으로)
+            uniformtofill - 정비례하게뽑지만 반대로 창에서 긴쪽으로 맞춰서 늘어남
+        -->
+        <!--<Ellipse Fill="Aqua" Stroke="Blue" Stretch="fill"/>-->
+
+        <Canvas Background="Aqua" Margin="10">
+            <Ellipse Fill="Yellow" Stroke="Blue" Width="100" Height="50"
+                     Canvas.Left="200" Canvas.Top="100"/>
+
+            <Rectangle Fill="Yellow" Stroke="Blue" Width="100" Height="50"
+                       Canvas.Left="250" Canvas.Top="125"/>
+        </Canvas>
+    </Grid>
+</Window>
