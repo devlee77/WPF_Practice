@@ -1,0 +1,30 @@
+﻿<Window x:Class="WpfApp_practice4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_practice4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock>이것은 첫번째 줄입니다.</TextBlock>
+
+        <!--viewbox는 자동으로 화면에서 비례식으로 늘었다가 줄었다가함
+            but 자식들은 부모의 길이를 받아서 비례식으로 늘리기 대문에 부모의 크기가 있어야함-->
+        <!--Viewbox에도 stretch가 먹음-->
+        <Viewbox Grid.Row="1">
+            <Canvas Width="300" Height="200">
+                <Ellipse Fill="Yellow" Stroke="Blue" Canvas.Left="10" Canvas.Top="10"
+                         Width="100" Height="50"/>
+
+                <Rectangle Fill="Yellow" Stroke="Blue" Canvas.Left="110" Canvas.Top="110"
+                         Width="100" Height="50"/>
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</Window>
