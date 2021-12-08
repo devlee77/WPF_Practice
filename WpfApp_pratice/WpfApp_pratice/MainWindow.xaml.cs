@@ -35,7 +35,7 @@ namespace WpfApp_pratice
 
         private void C1_PropertyChanged(object? sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
-            Debug.WriteLine("39:" + e.PropertyName);
+            //Debug.WriteLine("39:" + e.PropertyName);
             switch (e.PropertyName)
             {
                 case "Name":

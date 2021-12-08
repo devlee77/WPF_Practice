@@ -5,15 +5,15 @@ winexe
 C#
 .cs
 C:\Users\sungchan Lee\Desktop\WPF_Practice\WpfApp_pratice\WpfApp_pratice\obj\Debug\net6.0-windows\
-WpfApp_pratice_1ush3xz3_wpftmp
+WpfApp_pratice
 none
 false
-TRACE;RELEASE;NET;NET6_0;NETCOREAPP
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\sungchan Lee\Desktop\WPF_Practice\WpfApp_pratice\WpfApp_pratice\App.xaml
 11407045341
 
-6634721321
-388-329529404
+42090701468
+194-164764702
 MainWindow.xaml;
 
 False
